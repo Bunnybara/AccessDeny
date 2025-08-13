@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Página com Texto e Imagem</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            background-color: black;
+            display: flex;
+            flex-direction: column; /* organiza em coluna: texto em cima, imagem em baixo */
+            justify-content: center;
+            align-items: center;
+            color: white; /* texto branco */
+            font-family: Arial, sans-serif;
+        }
+
+        .texto {
+            font-size: 32px; /* tamanho médio */
+            margin-bottom: 40px; /* espaço entre texto e imagem */
+            text-align: center;
+        }
+
+        img {
+            max-width: 90%;
+            max-height: 70%;
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body>
+    <div class="texto">Quem pode pode, quem não pode sacode</div>
+    <img src="https://i.postimg.cc/k5LCjXLw/dog-dog-meme.gif" alt="Imagem exemplo">
+</body>
+</html>
